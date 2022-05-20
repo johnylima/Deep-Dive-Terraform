@@ -3,7 +3,7 @@
 ##################################################################################
 
 variable "region" {
-  default = "eu-east-3"
+  default = "us-east-1"
 }
 
 variable "subnet_count" {
