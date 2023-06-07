@@ -1,9 +1,3 @@
-# Deep-Dive-Terraform
-
-Welcome to Terraform - Deep Dive version 2.  These exercise files are meant to accompany my course on [Pluralsight](https://app.pluralsight.com/library/courses/terraform-deep-dive/).  The course was developed using version 0.12.x of Terraform.  As far as I know there are no coming changes in 0.13 or newer that will significantly impact the validity of these exercise files.  But I also don't control all the plug-ins, providers, and modules used by the configurations. 
-
-If you're looking for the older version of the course, that is still available on the v1 branch. I am no longer maintaining it, but I thought I would keep it around for posterity.
-
 ## AWS Account
 
 You are going to need an account where you have FullAdmin permissions. You are going to be creating policies, roles, profiles, VPCs, etc. If you don't have enough permissions in your current environment, then I recommend creating a temporary account to mess around in. In fact, probably do that regardless. You don't want to accidentally mess something up at work because you were trying to learn about Terraform.
