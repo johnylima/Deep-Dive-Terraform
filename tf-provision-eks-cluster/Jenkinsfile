@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    stages {
+        stage('Init'){
+            steps {
+                dir('tf-provision-eks-cluster/'){
+                    sh "terraform --version"
+                    sh "terraform init"
+                }
+            }
+        }
+    }
+}
